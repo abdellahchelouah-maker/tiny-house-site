@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FabLab — Découpe laser de cartons | Tiny House STI2D</title>
+<meta name="description" content="Protocole complet d'utilisation de la découpeuse laser du FabLab pour fabriquer la maquette carton.">
+<link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Aller au contenu</a>
+
+<nav class="site-nav">
+  <div class="container">
+    <img src="../images/logo_lycee.png" alt="Logo du lycée" class="nav-logo nav-logo-left">
+
+    <a href="../index.html" class="brand">
+      <svg viewBox="0 0 24 24" fill="none"><path d="M3 11L12 4l9 7" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/><path d="M5 10v9h14v-9" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/><path d="M10 19v-5h4v5" stroke="currentColor" stroke-width="1.6"/></svg>
+      Tiny House · STI2D
+    </a>
+
+    <button class="nav-toggle" aria-label="Ouvrir le menu" aria-expanded="false"><span></span></button>
+
+    <ul class="nav-links">
+      <li><a href="../index.html">Accueil</a></li>
+      <li><a href="lancement.html">Séquence</a></li>
+      <li><a href="rendu.html">Rendu</a></li>
+      <li><a href="grille-evaluation.html">Évaluation</a></li>
+    </ul>
+
+    <img src="../images/logo-it.png" alt="Logo IT" class="nav-logo nav-logo-right">
+  </div>
+</nav>
+
+<main id="main">
+  <header class="hero container">
+    <span class="hero-eyebrow">FabLab · Maquette carton</span>
+    <h1>Utilisation de la découpe laser de cartons</h1>
+    <p class="lede">Ce protocole vous guide, étape par étape, pour fabriquer la maquette physique de votre Tiny House à partir de votre fichier de découpe.</p>
+  </header>
+
+  <div class="container">
+    <nav class="stepper" aria-label="Étapes de la séquence">
+      <a class="step-pill done" href="lancement.html"><span class="n">0</span>Lancement</a>
+      <a class="step-pill done" href="decouverte.html"><span class="n">1</span>Découverte</a>
+      <a class="step-pill done" href="style-esquisse.html"><span class="n">2</span>Style &amp; esquisse</a>
+      <a class="step-pill done" href="choix-solution.html"><span class="n">3</span>Choix de solution</a>
+      <a class="step-pill done" href="plans-echelle.html"><span class="n">4</span>Plans à l'échelle</a>
+      <a class="step-pill done" href="prise-en-main-sketchup.html"><span class="n">AS</span>Prise en main SketchUp</a>
+      <a class="step-pill done" href="maquette-sketchup.html"><span class="n">5</span>Maquette SketchUp</a>
+      <a class="step-pill done" href="etude-electrique.html"><span class="n">6</span>Étude électrique</a>
+      <a class="step-pill current" href="decoupe-laser.html"><span class="n">7</span>FabLab</a>
+      <a class="step-pill" href="rendu.html"><span class="n">8</span>Rendu</a>
+      <a class="step-pill" href="grille-evaluation.html"><span class="n">★</span>Évaluation</a>
+    </nav>
+  </div>
+
+  <section class="section container">
+
+    <div class="content-block">
+      <figure style="margin:18px 0 18px; max-width:760px;">
+        <img src="../images/decoupeuse.PNG" alt="Découpeuse laser du FabLab utilisée pour réaliser la maquette carton." width="760" height="auto" style="border-radius:12px; border:1px solid #d9d0bb; box-shadow:0 8px 18px rgba(34,31,26,.04);">
+        <figcaption style="margin-top:8px; color:#5B5449; font-size:0.92rem;">Découpeuse laser du FabLab du lycée utilisée pour fabriquer la maquette carton.</figcaption>
+      </figure>
+
+      <div class="kicker">Pourquoi cette étape</div>
+      <h2>De la maquette numérique à la maquette physique</h2>
+      <p>La grille d'évaluation attend une discussion sur la conception et la découpe laser, et un bilan sur le résultat obtenu et ce qu'il apporte à l'étude. Le fichier d'usinage — au format <strong>.DXF</strong> — est réalisé sous Solidworks, à partir de vos plans, puis importé sur le poste relié à la découpeuse.</p>
+
+      <p>Pour obtenir les fichiers au format <strong>DXF</strong> compatibles avec la découpeuse laser, il faut d'abord exporter les pièces à l'échelle demandée et vérifier qu'elles respectent bien les dimensions finales. La vidéo ci-dessous présente les étapes à suivre pour générer correctement le fichier de découpe, contrôler les dimensions et préparer le fichier pour l'usinage.</p>
+      <video controls preload="metadata" style="width:min(100%, 820px); border-radius:12px; border:1px solid #d9d0bb; background:#f4f1ea; margin:10px 0 18px;">
+        <source src="../videos/obtention-fichiers-dxf.mp4" type="video/mp4">
+        Votre navigateur ne supporte pas la lecture de vidéos HTML5.
+      </video>
+
+      <div class="callout">
+        <span class="callout-label">De SketchUp au fichier de découpe</span>
+        <p>Une fois votre prototype terminé sur <a href="maquette-sketchup.html">SketchUp</a>, chaque groupe de deux élèves doit produire le fichier destiné à la découpeuse laser. Ce fichier — un PDF mis à disposition de l'élève via un bouton dédié — permet d'obtenir les pièces en carton à l'échelle de votre Tiny House.</p>
+      </div>
+      <div class="callout callout-sage">
+        <span class="callout-label">Assemblage</span>
+        <p>Une fois découpées, les pièces en carton sont assemblées au <strong>pistolet à colle</strong> pour constituer la maquette physique finale.</p>
+      </div>
+      <div class="callout callout-blueprint">
+        <span class="callout-label">Sécurité</span>
+        <p>Le laser est un équipement dangereux : ne jamais ouvrir le capot pendant la découpe, toujours refermer le capot avant de lancer l'usinage, et prévenir votre enseignant en cas de doute. Le pistolet à colle chauffe également fortement : manipulez-le avec précaution.</p>
+      </div>
+    </div>
+
+    <div class="content-block">
+      <div class="kicker">Protocole — FabLab</div>
+      <h2>Les huit étapes</h2>
+
+
+
+      <p>Avant d’utiliser la machine, il est essentiel de suivre les consignes officielles du FabLab du lycée pour garantir la sécurité et la qualité de la découpe. Le document ci-dessous reprend les règles de manipulation, les précautions à respecter et les étapes de mise en œuvre.</p>
+      <figure style="margin:18px 0 18px; max-width:760px;">
+        <img src="../images/decoupe-laser.PNG" alt="Découpeuse laser du FabLab utilisée pour réaliser la maquette carton." width="760" height="auto" style="border-radius:12px; border:1px solid #d9d0bb; box-shadow:0 8px 18px rgba(34,31,26,.04);">
+        <figcaption style="margin-top:8px; color:#5B5449; font-size:0.92rem;">Découpeuse laser du FabLab du lycée utilisée pour fabriquer la maquette carton.</figcaption>
+      </figure>
+      <div style="margin:18px 0 28px; padding:18px 20px; border:1px solid #d9d0bb; border-radius:14px; background:#f8f5f0; box-shadow:0 8px 18px rgba(34,31,26,.04); max-width:760px;">
+        <p style="margin:0 0 10px; color:#221F1A; font-weight:600;">Consignes d’utilisation de la découpeuse laser</p>
+
+        <a href="../documents/utilisation-decoupe-laser.pdf" target="_blank" rel="noopener noreferrer" style="display:inline-flex; align-items:center; justify-content:center; padding:10px 18px; border-radius:999px; background:#E4EEF0; color:#2A5A6B; border:1px solid rgba(42,90,107,.25); font-weight:700; text-decoration:none;">Ouvrir le PDF de consignes</a>
+      </div>
+
+      <ol class="proc-list">
+        <li>
+          <h4>Mettre la machine sous tension</h4>
+          <p>Vérifier que la multiprise est allumée et raccordée à la paillasse, elle-même sous tension. Allumer les interrupteurs de la machine de découpe.</p>
+        </li>
+        <li>
+          <h4>Démarrer le poste informatique</h4>
+          <p>L'unité centrale doit être allumée et le PC doit démarrer. Si besoin, appuyer sur la touche F1.</p>
+        </li>
+        <li>
+          <h4>Exécuter l'application RDWorks</h4>
+          <p>Lancer le logiciel de pilotage de la découpe laser depuis le bureau ; la fenêtre de travail s'ouvre, prête à recevoir un fichier.</p>
+        </li>
+        <li>
+          <h4>Importer le fichier d'usinage</h4>
+          <p>Depuis le menu d'import, sélectionner le fichier sur la clé USB. Le fichier <strong>.DXF</strong> est le fichier d'usinage réalisé sous Solidworks : c'est celui à choisir.</p>
+        </li>
+        <li>
+          <h4>Installer le carton</h4>
+          <p>Ouvrir le capot de la machine et placer un carton à la bonne épaisseur sur la partie grillagée. Le laser s'active et un spot lumineux apparaît à l'extrémité du carton déposé. Refermer le capot de la machine pour des raisons de sécurité avant toute chose.</p>
+        </li>
+        <li>
+          <h4>Régler la puissance et la vitesse</h4>
+          <p>Lorsque le tracé apparaît, cliquer sur « Layer » et le garder sur la couleur noire. Choisir la puissance du laser et la vitesse en fonction du gabarit de coupe. Par défaut : puissance min = puissance max = 100 % et vitesse = 60 mm/s — à ajuster selon un test préalable (grille de puissance/vitesse sur une chute de carton) si les valeurs par défaut ne conviennent pas.</p>
+        </li>
+        <li>
+          <h4>Envoyer les paramètres à la machine</h4>
+          <p>Cliquer sur « Download » pour envoyer les paramètres de découpe. La machine peut demander un nom pour le fichier : le renseigner, puis confirmer en cliquant sur « Oui ». Un message « File download success! » confirme le bon téléversement.</p>
+        </li>
+        <li>
+          <h4>Lancer la découpe</h4>
+          <p>Cliquer sur « Start » pour lancer la découpe laser. L'écran de la machine affiche la progression de l'usinage en temps réel.</p>
+        </li>
+      </ol>
+    </div>
+
+    <div class="content-block">
+      <div class="kicker">Rappel</div>
+      <h2>Ce que la maquette carton doit démontrer</h2>
+      <p>Au-delà de la fabrication elle-même, le dossier attend une <strong>discussion</strong> sur les choix de conception liés à la découpe laser (assemblage, découpe des ouvertures, épaisseur du matériau), ainsi qu'un <strong>bilan</strong> honnête : qu'est-ce que la maquette physique apporte que la maquette numérique ne montrait pas ? Quelles corrections a-t-elle révélées ?</p>
+    </div>
+
+  </section>
+
+  <div class="container">
+    <nav class="page-nav">
+      <a href="etude-electrique.html"><span class="dir">Étape précédente</span>← Projet 6 — Étude électrique</a>
+      <a class="to-right" href="rendu.html"><span class="dir">Étape suivante</span>Rendu final →</a>
+    </nav>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <p class="footer-note">Projet Tiny House — Séquence A, Première STI2D (spécialité IT+I2D).</p>
+    <div class="footer-links">
+      <a href="../index.html">Accueil</a>
+      <a href="rendu.html">Rendu</a>
+      <a href="grille-evaluation.html">Évaluation</a>
+    </div>
+  </div>
+</footer>
+
+<script src="../js/main.js"></script>
+</body>
+</html>
